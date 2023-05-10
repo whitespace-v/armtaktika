@@ -1,0 +1,32 @@
+@import "../variables";
+.Auth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 60px;
+  &__container{
+    border: 2px solid $dark-gray;
+    padding: 60px;
+    margin: 30px;
+    width: fit-content;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+    &-title{
+      display: flex;
+      gap: 30px;
+      justify-content: center;
+      font-size: 28px;
+      &-item{
+        cursor: pointer;
+        border-bottom: 3px solid transparent;
+      }
+      &-item:not(.current):hover{
+        color: $orange;
+      }
+      &-item.current{
+        border-bottom: 3px solid $orange;
+      }
+    }
+  }
+}

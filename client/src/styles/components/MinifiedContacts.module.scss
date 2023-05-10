@@ -1,0 +1,43 @@
+@import '../variables';
+.MinifiedContacts{
+  margin: 160px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &__address{
+    transition: all 200ms ease-in-out;
+    cursor: pointer;
+  }
+  &__address:hover{
+    color: $orange;
+  }
+  &__links{
+    display: flex;
+    gap: 20px;
+    &-item{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      transition: all 200ms ease-in-out;
+    }
+    &-item:hover{
+      color: $orange;
+    }
+  }
+}
+
+@media (max-width: 620px) {
+  .MinifiedContacts{
+    margin: 160px 0 30px 0;
+    &__address{
+      font-size: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    &__links{
+      font-size: 24px;
+    }
+  }
+}

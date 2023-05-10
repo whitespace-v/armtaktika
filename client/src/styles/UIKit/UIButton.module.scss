@@ -1,0 +1,32 @@
+@import "../variables";
+.UIButton{
+  background-color: $white;
+  border: 1px solid $black;
+  cursor: pointer;
+  width: fit-content;
+  padding: 10px 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: fit-content;
+  transition: all 200ms linear;
+  font-size: 24px;
+}
+.UIButton:hover{
+  background-color: $black;
+  color: $white;
+  border: 1px solid transparent;
+}
+.UIButton:active{
+  transition: none;
+  background-color: $dark-gray;
+}
+.wide{
+  min-width: 400px;
+  height: fit-content;
+}
+@media (max-width: 500px) {
+  .UIButton.wide{
+    min-width: 300px;
+  }
+}

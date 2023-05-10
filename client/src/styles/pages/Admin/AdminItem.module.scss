@@ -1,0 +1,103 @@
+@import "../../variables";
+.AdminItem{
+  border: 2px solid $dark-gray;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  &-image{
+    width: 100px;
+    height: 100px;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+  &-images{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 300px;
+    &-item{
+      width: 100px;
+      height: 100px;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+  }
+  &-name{
+    max-width: 200px;
+    &-title{
+      font-size: 14px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    &-description{
+      &-name{
+        white-space: pre-line;
+      }
+    }
+    &-update, &-description-update{
+      position: absolute;
+      background-color: #fff;
+      display: flex;
+      gap: 5px;
+    }
+  }
+  &-sizes{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    &-items{
+      display: flex;
+      flex-direction: column;
+      flex-wrap: wrap;
+      max-height: 300px;
+      gap: 5px;
+      &-item{
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        &-name{
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          justify-content: space-between;
+          .size-update{
+            display: flex;
+            gap: 10px;
+          }
+        }
+        &-name.unavailable:after{
+          content: '';
+          position: absolute;
+          width: 70px;
+          height: 1px;
+          background-color: $dark-gray;
+          transform:translateY(-20px);
+        }
+      }
+    }
+  }
+  &-price, &-dimensions{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    span{
+      font-weight: bold;
+    }
+  }
+  &-creation{
+    &-inputs{
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    display: flex;
+    gap: 5px;
+    align-items: center;
+  }
+  &-controllers{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}

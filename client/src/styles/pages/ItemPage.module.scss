@@ -1,0 +1,138 @@
+@import "../variables";
+.ItemPage{
+  display: flex;
+  gap: 60px;
+  &__media{
+    width: 600px;
+    &-image{
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+      width: 600px;
+      height: 600px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-size: 34px;
+      color: #000;
+      margin-bottom: 60px;
+      background-size: 80%;
+      &-next,&-back{
+        cursor: pointer;
+        transition: all 200ms linear;
+      }
+      &-next:hover,&-back:hover{
+        color: $orange;
+      }
+
+    }
+    &-images{
+      display: flex;
+      flex-wrap: wrap;
+      &-item{
+        width: 150px;
+        height: 150px;
+        background-position: 50% 50%;
+        background-size: contain;
+        background-repeat: no-repeat;
+        cursor: pointer;
+        margin-bottom: 10px;
+      }
+      &-item.active{
+        border: 2px solid $orange;
+      }
+    }
+  }
+  &__info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &-name{
+      font-weight: bold;
+      font-size: 32px;
+    }
+    &-price{
+      font-size: 48px;
+    }
+    &-sizes{
+      display: flex;
+      gap: 30px;
+      &-item{
+        border: 2px solid $dark-gray;
+        font-size: 24px;
+        color: $dark-gray;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 200ms linear;
+        width: 50px;
+        height: 50px;
+      }
+      &-item:not(.unavailable){
+        cursor: pointer;
+      }
+      &-item:not(.unavailable,.selected):hover{
+        border: 2px solid $orange;
+      }
+      &-item.unavailable{
+        background-color: $light-gray;
+      }
+      &-item.unavailable:after,&-item.unavailable:before{
+        content: '';
+        width: 2px;
+        height: 46px;
+        position: absolute;
+        background-color: $mid-gray;
+      }
+      &-item.unavailable:before{
+        transform: rotate(45deg);
+        top: 0;
+        left: 50%;
+      }
+      &-item.unavailable:after{
+        transform: rotate(-45deg);
+        top: 0;
+        right: 50%;
+      }
+      &-item.selected:after, &-item.selected:before{
+        content: '';
+        position: absolute;
+        height: 15px;
+        width: 15px;
+        border-color: $orange;
+        border-style: solid;
+      }
+      &-item.selected:after{
+        top: 2px;
+        left: 2px;
+        border-width: 3px 0 0 3px;
+      }
+      &-item.selected:before{
+        bottom: 2px;
+        right: 2px;
+        border-width: 0 3px 3px 0;
+      }
+    }
+    &-description{
+      white-space: pre-line;
+    }
+  }
+}
+
+@media (max-width: 1200px){
+  .ItemPage{
+    flex-direction: column;
+  }
+}
+@media (max-width: 700px){
+  .ItemPage{
+    &__media{
+      width: calc(300px + (600 - 300) * ((100vw - 320px) / (700 - 320)));
+      &-image{
+        width: calc(300px + (600 - 300) * ((100vw - 320px) / (700 - 320)));
+        height: calc(300px + (600 - 300) * ((100vw - 320px) / (700 - 320)));
+        margin-bottom: 30px;
+      }
+    }
+  }
+}

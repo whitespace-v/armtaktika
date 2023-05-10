@@ -1,0 +1,23 @@
+@import "../variables";
+.UIInteraction{
+  font-size: 24px;
+  color: black;
+  padding: 5px;
+  transition: all 200ms linear;
+  border: 2px solid $black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: fit-content;
+  cursor: pointer;
+  height: fit-content;
+}
+.UIInteraction:hover{
+  color: $orange;
+  border: 2px solid $orange;
+}
+.UIInteraction:active{
+  transition: none;
+  color: $dark-gray;
+  border: 2px solid $black
+}

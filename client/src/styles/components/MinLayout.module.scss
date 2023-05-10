@@ -1,0 +1,9 @@
+.MinLayout{
+  max-width: 1850px;
+  margin: 0 auto;
+}
+@media (max-width: 1850px) {
+  .MinLayout{
+    max-width: calc(300px + (1700 - 300) * ((100vw - 320px) / (1850 - 320)));
+  }
+}

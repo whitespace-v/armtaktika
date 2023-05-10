@@ -1,0 +1,51 @@
+@import "../variables";
+.FilterBar{
+  border-left: 5px solid $orange;
+  padding: 10px 0 0 10px;
+  &-item{
+    &-filters{
+      &-head{
+        font-size: 28px;
+        cursor: pointer;
+      }
+      &-head.active{
+        font-weight: bold;
+      }
+      &-types{
+        padding-left: 20px;
+        &-item{
+          cursor: pointer;
+          font-size: 18px;
+          border-bottom: 2px solid transparent;
+          width: fit-content;
+          margin-bottom: 5px;
+        }
+        &-item.active{
+          border-bottom: 2px solid $orange;
+        }
+      }
+      &-variants{
+        padding-left: 20px;
+        margin-top: 10px;
+        &-item{
+          text-transform: capitalize;
+          display: flex;
+          align-items: center;
+          gap: 10px;
+          margin-bottom: 10px;
+          cursor: pointer;
+          &-check{
+            border: 2px solid $dark-gray;
+            padding: 2px;
+            width: 25px;
+            height: 25px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: $orange;
+          }
+        }
+      }
+    }
+  }
+}

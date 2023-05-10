@@ -1,0 +1,15 @@
+@import "../variables";
+.UITextArea{
+  width: 100%;
+  textarea{
+    width: 100% !important;
+    border: 2px solid $dark-gray;
+    border-radius: 6px;
+    resize: vertical;
+    font-size: 18px;
+    padding: 5px;
+  }
+  &-max{
+    text-align: right;
+  }
+}
