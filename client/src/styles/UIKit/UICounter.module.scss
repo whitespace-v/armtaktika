@@ -1,0 +1,27 @@
+@import "../variables";
+.UICounter{
+  display: flex;
+  border: 2px solid $dark-gray;
+  width: fit-content;
+  align-items: center;
+  justify-content: space-between;
+  &__increase,&__decrease{
+    cursor: pointer;
+    font-size: 34px;
+    padding: 0 10px;
+    user-select: none;
+    transition: all 200ms linear;
+  }
+  &__increase:hover,&__decrease:hover{
+    color: $orange;
+  }
+  input{
+    //outline: none;
+    border: none;
+    border-bottom: 2px solid $dark-gray;
+    //width: fit-content;
+    width: 2rem;
+    font-size: 24px;
+    text-align: center;
+  }
+}

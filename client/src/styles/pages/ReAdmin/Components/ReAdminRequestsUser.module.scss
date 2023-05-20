@@ -1,0 +1,25 @@
+@import '../../../variables';
+
+.ReAdminRequestsUser{
+  &-expanded{
+    &-data{
+      margin: 30px 0;
+    }
+    &-hide{
+      margin-top: 10px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    &-hide:hover{
+      color: $orange;
+    }
+  }
+  &-button{
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  &-button:hover{
+    color: $orange;
+  }
+}

@@ -1,0 +1,27 @@
+@import "../../../variables";
+.ReAdminRequests{
+  &__items{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    &-item:nth-child(2n){
+      background-color: $light-gray;
+    }
+    &-item{
+      padding: 10px;
+      &-title{
+        margin-bottom: 10px;
+        font-size: 22px;
+        font-weight: bold;
+      }
+      &-order{
+        &-item{
+          cursor: pointer;
+        }
+        &-item:hover{
+          color: $orange;
+        }
+      }
+    }
+  }
+}
