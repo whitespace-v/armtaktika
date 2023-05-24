@@ -1,0 +1,15 @@
+@import "../variables";
+.UISuccess{
+  position: fixed;
+  padding: 0 10px;
+  right: 0;
+  bottom: 0;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  border-left: 3px solid $orange;
+  border-bottom: 3px solid $orange;
+  background-color: rgba(255, 255, 255, 0.8);
+}

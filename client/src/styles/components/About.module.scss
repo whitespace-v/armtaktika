@@ -1,0 +1,76 @@
+@import "../variables";
+.About{
+  margin-top: 60px;
+  &__title{
+    text-align: right;
+    font-size: 42px;
+    font-weight: bold;
+    border-bottom: 12px solid $orange ;
+    margin-right: 70%;
+  }
+  &__container{
+    margin-top: 60px;
+    display: flex;
+    &-text{
+      width: 50vw;
+      height: 80vh;
+      background-color: $light-gray;
+      color: black;
+      padding: 60px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 22px;
+      text-align: justify;
+      flex-direction: column;
+      gap: 30px;
+      img{
+        width: 150px;
+      }
+    }
+    &-image{
+      width: 50vw;
+      height: 80vh;
+      background-size: cover;
+      background-position: 50% 50%;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .About{
+    &__container{
+      &-text{
+        padding: 30px;
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+@media (max-width: 1050px) {
+  .About{
+    &__container{
+      flex-direction: column;
+      &-text,&-image{
+        width: 100%;
+      }
+    &-text{
+      height: fit-content;
+    }
+    }
+  }
+}
+@media (max-width: 550px) {
+  .About{
+    &__container{
+      &-text{
+        text-align: unset;
+      }
+      &-image{
+        background-position: 0 0;
+      }
+    }
+  }
+}

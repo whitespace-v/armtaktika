@@ -1,0 +1,32 @@
+@import '../variables';
+.UIInput{
+  border-bottom: 1px solid $black;
+  font-size: 32px;
+  position: relative;
+  color: $dark-gray;
+  &__name-disabled{
+    position: absolute;
+    top: 10px;
+    left: 0;
+    transition: all ease-in-out 200ms;
+    font-size: 24px;
+    pointer-events: none;
+  }
+  &__name-active{
+    position: absolute;
+    top: -2px;
+    left: 0;
+    transition: all ease-in-out 200ms;
+    font-size: 12px;
+    pointer-events: none;
+  }
+  input{
+    border: none;
+    font-size: 24px;
+    padding-top: 10px;
+  }
+
+}
+.UIInput:active{
+  color: $black;
+}

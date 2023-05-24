@@ -1,0 +1,35 @@
+@import "variables";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: 'Rubik', sans-serif;
+  scroll-behavior: smooth;
+}
+//body{
+//  background-color: $orange;
+//}
+::-webkit-scrollbar              {
+  background-color: $dark-gray;
+  width: 5px;
+  overflow: hidden;
+}
+::-webkit-scrollbar-button       {
+  /*background-color: gold;*/
+  display: none;
+
+}
+::-webkit-scrollbar-track        {
+  display: none;
+}
+::-webkit-scrollbar-track-piece  {
+  height: 3px;
+  overflow: hidden;
+}
+::-webkit-scrollbar-thumb{
+  background-color: $orange;
+}
+:root {
+  --swiper-theme-color: #E5A83CFF !important;
+}

@@ -1,0 +1,69 @@
+@import "../variables";
+.ModalNav{
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 85px;
+  background-color: black;
+  padding: 30px 30px 60px 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  &__nav{
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+    &-item{
+      cursor: pointer;
+      width: fit-content;
+    }
+    &-item:hover{
+      color: $orange;
+    }
+  }
+  &__contacts{
+    display: flex;
+    gap: 30px;
+    &-keys,&-values{
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+      font-size: 18px;
+    }
+    &-keys{
+      color: $dark-gray;
+    }
+    &-values{
+      color: white;
+      &-item{
+        cursor: pointer;
+      }
+      &-item:hover{
+        color: $orange;
+      }
+    }
+  }
+}
+
+@media (max-width: 660px) {
+  .ModalNav{
+    &__logo{
+      img{
+        width: calc(280px + (500 - 280) * ((100vw - 320px) / (660 - 320)));;
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .ModalNav{
+    &__contacts{
+      &-keys,&-values{
+        font-size: calc(8px + (16 - 8) * ((100vw - 320px) / (500 - 320)));;
+      }
+    }
+  }
+}

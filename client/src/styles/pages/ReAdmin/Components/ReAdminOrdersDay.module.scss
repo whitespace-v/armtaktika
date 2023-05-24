@@ -1,0 +1,68 @@
+@import "../../../variables";
+.ReAdminOrdersDay{
+  &__header{
+    display: flex;
+    gap: 30px;
+    &-title{
+      font-size: 22px;
+      font-weight: bold;
+      margin-bottom: 15px;
+    }
+    &-add{
+      &-button{
+        cursor: pointer;
+        display: flex;
+        gap: 5px;
+        svg{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      &-button:hover{
+        color: $orange;
+      }
+      &-content{
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(0,0,0,0.5);
+        z-index: 999;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        &-cross{
+          position: absolute;
+          top: 2%;
+          right: 2%;
+          font-size: 32px;
+          cursor: pointer;
+        }
+        &-cross:hover{
+          color: $orange;
+        }
+        &-container{
+          background-color: #fff;
+          padding: 30px;
+        }
+      }
+    }
+  }
+  &__content{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    &-item{
+      display: flex;
+      gap: 5px;
+      &-name,&-delete{
+        cursor: pointer;
+      }
+      &-name:hover, &-delete:hover{
+        color: $orange;
+      }
+    }
+  }
+}

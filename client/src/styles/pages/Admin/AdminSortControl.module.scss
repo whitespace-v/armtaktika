@@ -1,0 +1,20 @@
+@import "../../variables";
+.AdminSortControl{
+  display: flex;
+  justify-content: space-between;
+  &-filter{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+  }
+  &-controllers{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    align-items: center;
+  }
+  &__active-box{
+    display: flex;
+    gap: 20px;
+  }
+}

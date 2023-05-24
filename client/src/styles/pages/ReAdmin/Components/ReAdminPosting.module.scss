@@ -1,0 +1,87 @@
+@import "../../../variables";
+.ReAdminPosting{
+  &__header{
+    margin-top: 30px;
+    display: flex;
+    background-color: $light-gray;
+    padding-left: 30px;
+    border-radius: 12px 12px 0 0;
+    &-item{
+      cursor: pointer;
+      padding: 5px 10px;
+      border-radius: 5px 5px 0 0;
+      border-bottom: 1px solid $dark-gray;
+    }
+    &-item.active{
+      background-color: #fff;
+      position: relative;
+      border-top: 1px solid $dark-gray;
+      border-left: 1px solid $dark-gray;
+      border-right: 1px solid $dark-gray;
+      border-bottom: none;
+    }
+    &-item.active:before,
+    &-item.active:after {
+      content: "";
+      position: absolute;
+      height: 10px;
+      width: 20px;
+      bottom: 0;
+    }
+    &-item.active:after {
+      right: -21px;
+      border-radius: 0 0 0 10px;
+      -moz-border-radius: 0 0 0 10px;
+      -webkit-border-radius: 0 0 0 10px;
+      -webkit-box-shadow: -10px 0 0 0 #fff;
+      box-shadow: -10px 0 0 0 #fff;
+      border-left: 1px solid $dark-gray;
+    }
+    &-item.active:before {
+      left: -21px;
+      border-radius: 0 0 10px 0;
+      -moz-border-radius: 0 0 10px 0;
+      -webkit-border-radius: 0 0 10px 0;
+      -webkit-box-shadow: 10px 0 0 0 #fff;
+      box-shadow: 10px 0 0 0 #fff;
+      border-right: 1px solid $dark-gray;
+    }
+    &-item-create{
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      &-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-icon:hover{
+        color: $orange;
+      }
+    }
+  }
+  &__branch{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    //gap: 15px;
+    &-item{
+      display: flex;
+      justify-content: space-between;
+      padding: 5px 0;
+      &-sizes{
+        &-create{
+          cursor: pointer;
+          padding: 0 5px;
+        }
+        &-create:hover{
+          background-color: $orange;
+        }
+      }
+    }
+    &-item:nth-child(2n){
+      background-color: $light-gray;
+    }
+  }
+}

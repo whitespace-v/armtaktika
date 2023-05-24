@@ -1,0 +1,62 @@
+@import "../../../variables";
+.ReAdminGoods{
+  &__categories{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    &-create{
+      cursor: pointer;
+      margin: 15px 0;
+      display: flex;
+      gap: 10px;
+      align-items: center;
+      &-icon{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      &-icon:hover{
+        color: $orange;
+      }
+    }
+    &-i{
+      display: flex;
+      justify-content: space-between;
+      cursor: pointer;
+      border-bottom: 1px solid black;
+    }
+    &-i:hover{
+      color: $orange;
+    }
+    &-section{
+      &-item{
+        &-name{
+          font-size: 22px;
+          margin-top: 30px;
+        }
+        &-list{
+          &-item{
+            display: flex;
+            justify-content: space-between;
+            cursor: pointer;
+            padding: 5px 0;
+          }
+          &-item:nth-child(2n){
+            background-color: $light-gray;
+          }
+          &-item:hover{
+            background-color: $orange;
+          }
+        }
+        &-create{
+          margin-top: 10px;
+          cursor: pointer;
+        }
+        &-create:hover{
+          color: $orange;
+        }
+      }
+    }
+  }
+
+}

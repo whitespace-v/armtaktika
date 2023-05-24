@@ -1,0 +1,22 @@
+.Banner{
+  height: 800px;
+  background-position: 10% 10%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  border-radius: 0 0 60px 60px;
+  & > * {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 100%;
+  }
+}
+
+@media (max-width: 650px) {
+  .Banner{
+    height: 600px;
+    img{
+      width: 90vw;
+    }
+  }
+}

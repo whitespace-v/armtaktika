@@ -1,0 +1,51 @@
+@import "../variables";
+.Compilation{
+  margin-top: 100px;
+  &__title{
+    display: flex;
+    align-items: center;
+    &-line{
+      height: 16px;
+      width: 100%;
+      background-color: $orange;
+    }
+    &-text{
+      font-size: 42px;
+      font-weight: bold;
+      padding: 60px;
+      text-transform: uppercase;
+    }
+  }
+  &__items{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    & > * {
+      flex: 0 0 21%;
+    }
+  }
+}
+@media (max-width: 1300px) {
+  .Compilation{
+    &__items{
+      & > * {
+        flex: 0 0 33%;
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .Compilation{
+    &__title{
+      &-text{
+        font-size: 32px;
+        padding: 30px;
+      }
+    }
+    &__items{
+      & > * {
+        flex: 0 0 50%;
+      }
+    }
+  }
+}

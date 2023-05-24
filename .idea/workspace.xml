@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6161b7e8-37ec-4830-bc86-5e5004e78034" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2NKDLaAxBLD7pa1JFiYAlYyYPU6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;19.4.0&quot;,
+    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.2.1&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/angel/Desktop/armtaktika-redesigned/client/src/assets&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;/home/angel/Desktop/armtaktika-redesigned/client/node_modules/typescript/lib&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/client/src/assets" />
+      <recent name="$PROJECT_DIR$/server/routes" />
+      <recent name="$PROJECT_DIR$/server" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server" />
+      <recent name="$PROJECT_DIR$/client/src/UIKit" />
+      <recent name="$PROJECT_DIR$/client/src/styles/pages/Admin" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6161b7e8-37ec-4830-bc86-5e5004e78034" name="Changes" comment="" />
+      <created>1679403824764</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1679403824764</updated>
+      <workItem from="1679403825929" duration="12162000" />
+      <workItem from="1679656451251" duration="459000" />
+      <workItem from="1679657219765" duration="4588000" />
+      <workItem from="1679739806231" duration="5691000" />
+      <workItem from="1679916088161" duration="11073000" />
+      <workItem from="1680089099738" duration="2939000" />
+      <workItem from="1680342533979" duration="365000" />
+      <workItem from="1680344944282" duration="19000" />
+      <workItem from="1680604599265" duration="1014000" />
+      <workItem from="1680759078650" duration="15744000" />
+      <workItem from="1680791400586" duration="9713000" />
+      <workItem from="1680841966844" duration="2155000" />
+      <workItem from="1680854445621" duration="3188000" />
+      <workItem from="1680870884361" duration="8338000" />
+      <workItem from="1680916472991" duration="9418000" />
+      <workItem from="1681023520317" duration="2972000" />
+      <workItem from="1681101686583" duration="5984000" />
+      <workItem from="1681183373827" duration="10877000" />
+      <workItem from="1681268210647" duration="15613000" />
+      <workItem from="1681351263520" duration="15461000" />
+      <workItem from="1681386659496" duration="729000" />
+      <workItem from="1681440564800" duration="16168000" />
+      <workItem from="1682056781210" duration="5542000" />
+      <workItem from="1682128373853" duration="599000" />
+      <workItem from="1682389992355" duration="1214000" />
+      <workItem from="1682488631887" duration="7000" />
+      <workItem from="1682577675737" duration="9282000" />
+      <workItem from="1682590998732" duration="3569000" />
+      <workItem from="1682647586318" duration="2339000" />
+      <workItem from="1682742683070" duration="6219000" />
+      <workItem from="1682753605683" duration="3912000" />
+      <workItem from="1682834497321" duration="6553000" />
+      <workItem from="1682844760765" duration="994000" />
+      <workItem from="1682906834857" duration="2407000" />
+      <workItem from="1683002639498" duration="777000" />
+      <workItem from="1683686319767" duration="8414000" />
+      <workItem from="1683776431516" duration="3256000" />
+      <workItem from="1683861673361" duration="11418000" />
+      <workItem from="1683944874290" duration="13828000" />
+      <workItem from="1683981758932" duration="4258000" />
+      <workItem from="1684122162348" duration="12438000" />
+      <workItem from="1684202288927" duration="15526000" />
+      <workItem from="1684311879417" duration="903000" />
+      <workItem from="1684376632384" duration="18740000" />
+      <workItem from="1684474464170" duration="2232000" />
+      <workItem from="1684546283083" duration="18440000" />
+      <workItem from="1684571316280" duration="6457000" />
+      <workItem from="1684637599685" duration="20664000" />
+      <workItem from="1684750386118" duration="5428000" />
+      <workItem from="1684756453077" duration="1960000" />
+      <workItem from="1684805489457" duration="1000" />
+      <workItem from="1684828570894" duration="13310000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,64 @@
+@import "../../variables";
+.AdminAnalytics{
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-color: $dark-gray;
+  padding: 5px;
+  &-budget{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    color: $light-gray;
+    span{
+      color: $orange;
+    }
+    &-item-expenses{
+      display: flex;
+      gap: 5px;
+    }
+    &-item-logs{
+      position: fixed;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      &-container{
+        border: 2px solid $orange;
+        width: fit-content;
+        background-color: white;
+        padding: 60px;
+        height: 80vh;
+        min-width: 80vh;
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        overflow-y: scroll;
+        color: #000;
+
+      }
+      &-cross{
+        position: absolute;
+        top: 5%;
+        right: 5%;
+        font-size: 34px;
+        cursor: pointer;
+      }
+      &-cross:hover{
+        color: $orange;
+      }
+    }
+  }
+  &-chart{
+    height: 100%;
+    width: 100%;
+    & > * {
+      height: 500px;
+    }
+  }
+}

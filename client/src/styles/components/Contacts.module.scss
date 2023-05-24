@@ -1,0 +1,76 @@
+@import "../variables";
+.Contacts{
+  margin-top: 60px;
+  &__title{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+  }
+  &__plates{
+    border: 2px solid black;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 12px;
+    margin-top: 60px;
+    &-item{
+      &-title{
+        font-size: 36px;
+        color: $orange;
+        font-weight: bold;
+      }
+      &-contacts{
+        margin-top: 30px;
+        display: flex;
+        gap: 60px;
+        &-keys{
+          font-weight: bold;
+          font-size: 24px;
+        }
+        &-values{
+          font-size: 24px;
+        }
+        &-values,&-keys{
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  .Contacts{
+    &__plates{
+      border: 2px solid black;
+      width: fit-content;
+      padding: 15px;
+      border-radius: 12px;
+      margin-top: 60px;
+      &-item{
+        &-title{
+          font-size: 24px;
+        }
+        &-contacts{
+          &-keys,&-values{
+            font-size: 16px;
+          }
+        }
+      }
+    }
+  }
+}
+@media (max-width: 500px) {
+  .Contacts{
+    &__plates{
+      &-item{
+        &-contacts {
+          gap: 15px;
+          &-keys,&-values{
+            gap: 15px;
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

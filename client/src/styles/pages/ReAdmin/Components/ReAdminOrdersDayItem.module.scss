@@ -1,0 +1,38 @@
+@import "../../../variables";
+.ReAdminOrdersDayItem{
+  min-width: 600px;
+  &-item{
+    cursor: pointer;
+    margin-bottom: 5px;
+    &-opened{
+      display: flex;
+      gap: 15px;
+      margin: 15px 0;
+      &-input{
+        display: flex;
+        flex-direction: column;
+      }
+      &-button{
+        cursor: pointer;
+        display: flex;
+        gap: 5px;
+        align-items: center;
+        svg{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      }
+      &-button:hover{
+        color: $orange;
+      }
+    }
+  }
+  &-item.active{
+    color: $orange;
+    font-weight: bold;
+  }
+  &-item:hover{
+    color: $orange;
+  }
+}

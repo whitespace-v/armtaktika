@@ -1,0 +1,11 @@
+@import "../../variables";
+.AdminItemList{
+  margin-top: 60px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.AdminItemList-names{
+  display: flex;
+  justify-content: space-between;
+}

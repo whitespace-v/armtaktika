@@ -1,0 +1,67 @@
+@import "../../../variables";
+.ReAdminCompilations{
+  margin-top: 30px;
+  &__create-container{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 250px;
+    &-buttons{
+      display: flex;
+      justify-content: space-between;
+      &-item{
+        cursor: pointer;
+      }
+      &-item:hover{
+        color: $orange;
+      }
+    }
+  }
+  &__create-button{
+    cursor: pointer;
+  }
+  &__create-button:hover{
+    color: $orange;
+  }
+  &-container{
+    &-item{
+      &-name{
+        font-size: 22px;
+      }
+      &-image{
+        width: 150px;
+        height: 150px;
+        background-size: contain;
+        background-position: 50% 50%;
+        background-repeat: no-repeat;
+      }
+    }
+  }
+  &-addList{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    &-container{
+      background-color: #fff;
+      padding: 30px;
+      overflow-y: scroll;
+    }
+    &-cross{
+      position: absolute;
+      top: 5%;
+      right: 5%;
+      font-size: 32px;
+      cursor: pointer;
+    }
+    &-cross:hover{
+      color: $orange;
+    }
+  }
+}
