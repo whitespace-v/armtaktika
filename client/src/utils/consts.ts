@@ -1,6 +1,6 @@
 import {IBranch, IBrand, ICategory, ICompilation, IGSize, IItem, IType} from "./models";
 
-export const API = 'http://localhost:5000/'
+export const API = 'https://armtaktika.ru/'
 
 export const defaultCategory:ICategory = {id: 0, name: '', createdAt: '', updatedAt: ''}
 export const defaultType:IType = {id: 0, name: '', createdAt: '', updatedAt: '', categoryId: 0}
@@ -14,4 +14,4 @@ export const defaultItem:IItem = {name: '', id: 0, createdAt: '', updatedAt: '',
 }
 export const defaultSize:IGSize = {name: '', items: []}
 export const defaultCompilation:ICompilation = {name: '', compilationId: 0, id: 0, createdAt: '', updatedAt: '', image: '', items: []}
-export const defaultBranch:IBranch = {investment: 0, income: 0, cash: 0, name: '', id: 0, createdAt: '', updatedAt: ''}
+export const defaultBranch:IBranch = {investment: 0, income: 0, cash: 0, name: '', id: 0, createdAt: '', updatedAt: '', profit: 0}

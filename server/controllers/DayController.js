@@ -14,8 +14,10 @@ class DayController {
     async getAll(req,res){
         try {
             const {branchId} = req.query
-            const model = await Day.findAll({where: {branchId},
-                include: [{model: DayItem, as: 'items'}],
+            const model = await Day.findAll({
+                where: {branchId},
+                order: [['id', 'DESC']],
+                include: [{model: DayItem, as: 'items'}]
             })
             return res.json(model)
         } catch (e) {

@@ -4,6 +4,8 @@
   &-item{
     cursor: pointer;
     margin-bottom: 5px;
+    overflow-y: scroll;
+    height: fit-content;
     &-opened{
       display: flex;
       gap: 15px;

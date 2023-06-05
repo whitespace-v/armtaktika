@@ -15,7 +15,7 @@ const ModalNav = ({active, setActive}: {active: boolean, setActive: (i: boolean)
                 <div className={classes['ModalNav']}>
                     <div className={classes['ModalNav__nav']}>
                         <div className={classes['ModalNav__nav-item']}
-                             onClick={() => navigateHandler('shop')}
+                             onClick={() => navigateHandler('/shop')}
                         >
                             Каталог
                         </div>

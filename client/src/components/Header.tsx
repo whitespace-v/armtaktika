@@ -22,7 +22,7 @@ const Header = () => {
             {width > 850 ?
                 <div className={classes['Header__nav']}>
                     <div className={classes['Header__nav-item']}
-                         onClick={() => navigate('shop')}
+                         onClick={() => navigate('/shop')}
                     >
                         Каталог
                     </div>

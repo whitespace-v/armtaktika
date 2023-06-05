@@ -141,7 +141,7 @@ const ItemPage = () => {
                                 <div>
                                     {size.items.map((i, idx) =>
                                         <div key={idx}>
-                                            в наличии в {i.branchName}: {i.quantity}
+                                            В наличии {i.branchName}: {i.quantity}
                                         </div>
                                     )}
                                 </div>

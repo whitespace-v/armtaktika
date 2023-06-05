@@ -57,6 +57,7 @@
         width: 100%;
         &-cross{
           cursor: pointer;
+          color: white;
         }
         &-cross:hover{
           color: $orange;

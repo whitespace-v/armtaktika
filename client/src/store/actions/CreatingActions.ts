@@ -139,10 +139,10 @@ export const createDay = ({name, branchId}: {name: string, branchId: number}) =>
         dispatch(userSlice.actions.setError('Не получилось добавить расход !'))
     }
 }
-export const addToDay = ({item, size, price, quantity, dayId, branchId}: {branchId: number, item: IItem, size: ISize, price: string, quantity: string, dayId:number}) => async(dispatch: AppDispatch) => {
+export const addToDay = ({item, size, price, purchase, quantity, dayId, branchId}: {branchId: number, item: IItem, purchase: string, size: ISize, price: string, quantity: string, dayId:number}) => async(dispatch: AppDispatch) => {
     dispatch(userSlice.actions.startAction())
     try {
-        await $authHost.post('api/dayitem', {item, size, price, quantity, dayId, branchId})
+        await $authHost.post('api/dayitem', {item, size, price, purchase, quantity, dayId, branchId})
         dispatch(userSlice.actions.setSuccess('Расход добавлен !'))
     } catch (e) {
         dispatch(userSlice.actions.setError('Не получилось добавить расход !'))

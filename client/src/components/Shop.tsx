@@ -11,6 +11,7 @@ import {RxCross1} from "react-icons/rx";
 import Layout from "./Layout";
 import Header from "./Header";
 import Footer from "./Footer";
+import Categories from "./Categories";
 const Shop = () => {
     const {category, type, brand, curVariants} = useAppSelector(state => state.filterReducer)
     const [filters, setFilters] = useState<boolean>(false)
@@ -25,7 +26,6 @@ const Shop = () => {
         <>
             <Header/>
             <div className={classes['Shop']}>
-
                 <MinLayout>
                     {width > 1200 &&
                         <div className={classes['Shop__filters']}>
@@ -34,6 +34,7 @@ const Shop = () => {
                         </div>
                     }
                     <div className={classes['Shop__main']}>
+                        <Categories/>
                         <Layout>
                             {(width < 1200 && filters) &&
                                 <div className={classes['Shop__modalFilters']}>
@@ -64,8 +65,8 @@ const Shop = () => {
                         <ItemList/>
                     </div>
                 </MinLayout>
-                <Footer/>
             </div>
+            <Footer/>
         </>
 
     );

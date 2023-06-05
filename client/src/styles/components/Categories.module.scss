@@ -1,0 +1,57 @@
+@import "../variables";
+.Categories{
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-bottom: 30px;
+  &__item{
+    padding: 15px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 280px;
+    display: flex;
+    align-items: flex-end;
+    border: 3px solid white;
+    cursor: pointer;
+    transition: all 200ms linear;
+    &-title{
+      font-size: 28px;
+      border-bottom: 5px solid $orange;
+      padding: 10px 0;
+      color: white;
+    }
+  }
+  &__item:hover{
+    z-index: 2;
+    transform: scale(1.1);
+  }
+}
+@media (max-width: 1250px) {
+  .Categories{
+    display: flex;
+    flex-wrap: wrap;
+    gap: calc(10px + (60 - 10) * ((100vw - 320px) / (1250 - 320)));
+    &__item{
+      //width: calc(150px + (250 - 150) * ((100vw - 320px) / (1250 - 320)));
+      &-title{
+        font-size: 22px;
+      }
+    }
+  }
+}
+@media (max-width: 900px) {
+  .Categories{
+    gap: 5px;
+    margin-top: -25px;
+    &__item{
+      padding: 10px;
+      width: 100%;
+      height: 100px;
+    }
+    &__item:hover{
+      transform: scale(1.05);
+    }
+  }
+}

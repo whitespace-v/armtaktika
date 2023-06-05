@@ -24,7 +24,9 @@ const Footer = () => {
             <Layout>
                 <div className={classes["Footer__content"]}>
                     <div className={classes["Footer__content-nav"]}>
-                        <div className={classes["Footer__content-nav-item"]}>
+                        <div className={classes["Footer__content-nav-item"]}
+                             onClick={() => navigate('/shop')}
+                        >
                             Каталог
                         </div>
                         <div className={classes["Footer__content-nav-item"]}>
@@ -50,7 +52,7 @@ const Footer = () => {
                         }
                         {user ==='Admin' &&
                             <div className={classes["Footer__content-nav-item"]}
-                            onClick={() => navigate('/admin')}
+                                 onClick={() => navigate('/admin')}
                             >
                                 Админ
                             </div>}

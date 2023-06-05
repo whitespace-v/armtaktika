@@ -8,6 +8,7 @@ import {fetchBranches, fetchItems} from "../../../store/actions/FetchingActions"
 import {defaultBrand, defaultCategory} from "../../../utils/consts";
 import Layout from "../../../components/Layout";
 import ReAdminPostingSizeCreator from "./ReAdminPostingSizeCreator";
+import ReAdminPostingBranchSize from "./ReAdminPostingBranchSize";
 const ReAdminPosting = () => {
     const dispatch = useAppDispatch()
     const [current, setCurrent] = useState<number>(1)
@@ -66,8 +67,10 @@ const ReAdminPosting = () => {
                                 {i.name}
                             </div>
                             <div className={classes['ReAdminPosting__branch-item-sizes']}>
-                                {_.filter(i.sizes, o => o["branchId"] === current).map(i =>
-                                    <div key={i.id}>{i.name} - {i.quantity}</div>
+                                {_.filter(i.sizes, o => o["branchId"] === current).map(l =>
+                                    <div key={l.id}>
+                                        <ReAdminPostingBranchSize size={l} purchase={i.purchase} branchId={current}/>
+                                    </div>
                                 )}
                                 <ReAdminPostingSizeCreator itemId={i.id} branchId={current} purchase={i.purchase}/>
                             </div>

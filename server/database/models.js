@@ -64,9 +64,10 @@ const Day = sequelize.define('day', {
 
 const Branch  = sequelize.define('branch', {
     id:                  {type: DataTypes.INTEGER, primaryKey: true, autoIncrement: true},
-    name:                {type: DataTypes.STRING,  allowNull: false},
+    name:                {type: DataTypes.STRING,  allowNull: false },
     investment:          {type: DataTypes.INTEGER, allowNull: false },
-    income:              {type: DataTypes.INTEGER, allowNull: false, },
+    profit:              {type: DataTypes.INTEGER, allowNull: false },
+    income:              {type: DataTypes.INTEGER, allowNull: false },
     cash:                {type: DataTypes.INTEGER, allowNull: false, },
 })
 
@@ -93,6 +94,7 @@ const DayItem = sequelize.define('day_item', {
     itemSizeName:        {type: DataTypes.STRING,    allowNull: false },
     itemSizeId:          {type: DataTypes.INTEGER,   allowNull: false },
     itemQuantity:        {type: DataTypes.STRING,    allowNull: false },
+    itemPurchase:        {type: DataTypes.STRING,    allowNull: true },
 })
 
 const OrderItem = sequelize.define('order_item', {

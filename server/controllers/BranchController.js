@@ -5,7 +5,7 @@ class BranchController {
         try {
             const {name} = req.body
             const model = await Branch.create(
-                {name, investment: 0, income: 0, cash: 0}
+                {name, investment: 0, income: 0, cash: 0, profit: 0}
             )
             return res.json(model)
         } catch (e) {

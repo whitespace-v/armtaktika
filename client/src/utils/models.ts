@@ -86,7 +86,7 @@ export interface IBranch extends IModel{
     investment: number
     cash: number,
     income: number,
-
+    profit: number
 }
 export interface IDayItem extends IModel {
     itemId:             string,

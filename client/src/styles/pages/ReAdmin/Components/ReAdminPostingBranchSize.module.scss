@@ -1,0 +1,49 @@
+@import "../../../variables";
+.ReAdminPostingBranchSize{
+  &__item{
+    cursor: pointer;
+  }
+  &__item:hover{
+    color: $orange;
+  }
+  &__edit{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+    &-cross{
+      color: white;
+      position: absolute;
+      top: 10%;
+      right: 10%;
+      font-size: 28px;
+      cursor: pointer;
+    }
+    &-cross:hover{
+      color: $orange;
+    }
+    &-item{
+      background-color: #fff;
+      padding: 20px;
+      &-inputs{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+      &-button{
+        width: fit-content;
+        cursor: pointer;
+        margin-top: 30px;
+      }
+      &-button:hover{
+        color: $orange;
+      }
+    }
+  }
+}

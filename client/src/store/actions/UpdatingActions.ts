@@ -3,10 +3,11 @@ import {userSlice} from "../slices/UserSlice";
 import {$authHost, $host} from "../../utils/http";
 import {itemSlice} from "../slices/ItemSlice";
 
-export const updateSize = (id: number, value: string, purchase: string) => async(dispatch: AppDispatch) => {
+export const updateSize = ({branchId, id,name,quantity,invest}:{branchId:number, id: number, name: string,quantity: string, invest: number}) => async(dispatch: AppDispatch) => {
     dispatch(userSlice.actions.startAction())
     try {
-        await $authHost({method:'PUT', url:`api/size/${id}`, data: {quantity: value, purchase}})
+        await $authHost({method:'PUT', url:`api/size/${id}`,
+            data: {name,quantity,invest, branchId}})
         dispatch(userSlice.actions.setSuccess('Размер успешно обновлен !'))
     } catch (e) {
         dispatch(userSlice.actions.setError('Не получилось обновить размер !'))

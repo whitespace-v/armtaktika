@@ -19,7 +19,7 @@ const Main = () => {
             <Banner/>
             <Compilations/>
             <CatalogButton/>
-            <Popular/>
+            {/*<Popular/>*/}
             <About/>
             <Contacts/>
             <Footer/>

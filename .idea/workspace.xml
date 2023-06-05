@@ -5,7 +5,201 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6161b7e8-37ec-4830-bc86-5e5004e78034" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/client/src/components/Categories.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminPostingBranchSize.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/components/Categories.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminPostingBranchSize.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/client/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/config-overrides.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/config-overrides.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/browserconfig.xml" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/browserconfig.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/robots.txt" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/robots.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/safari-pinned-tab.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/safari-pinned-tab.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UIButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UIButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UICounter.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UICounter.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UIInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UIInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UIInteraction.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UIInteraction.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UIReInput.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UIReInput.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UISuccess.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UISuccess.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/UIKit/UITextArea.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/UIKit/UITextArea.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/bannerText.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/bannerText.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logo.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/logoletter.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logoletter.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/logomin.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/logomin.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/assets/utils/animations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/assets/utils/animations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/About.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/About.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Banner.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Banner.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BasketWidget.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BasketWidget.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/BrandBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/BrandBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/CatalogButton.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/CatalogButton.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Compilations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Compilations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Contacts.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Contacts.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/FilterBar.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/FilterBar.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Footer.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Footer.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Item.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Item.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ItemList.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ItemList.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/MinLayout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/MinLayout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/ModalNav.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/ModalNav.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Popular.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Popular.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/components/Shop.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/components/Shop.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Admin/Creators/AdminItemCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Admin/Creators/AdminItemCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Admin/Creators/AdminItemImagesCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Admin/Creators/AdminItemImagesCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Auth.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Auth.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Basket.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Basket.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Compilation.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Compilation.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/ItemPage.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/ItemPage.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Main.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Main.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/Policy.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/Policy.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminAnalytics.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminAnalytics.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminCompilations.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminCompilations.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminCreateItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminCreateItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminEditItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminEditItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminGoods.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminGoods.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminOrders.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminOrders.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminOrdersDay.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminOrdersDay.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminOrdersDayItem.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminOrdersDayItem.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminPosting.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminPosting.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminPostingSizeCreator.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminPostingSizeCreator.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminRequests.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminRequests.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminRequestsUser.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/Components/ReAdminRequestsUser.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/pages/reAdmin/ReAdmin.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/pages/reAdmin/ReAdmin.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/reportWebVitals.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/reportWebVitals.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/setupTests.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/setupTests.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/actions/CreatingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/actions/CreatingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/actions/DeletingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/actions/DeletingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/actions/FetchingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/actions/FetchingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/actions/SettingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/actions/SettingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/actions/UpdatingActions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/actions/UpdatingActions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/redux.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/redux.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/slices/AnalyticsSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/slices/AnalyticsSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/slices/FilterSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/slices/FilterSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/slices/ItemSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/slices/ItemSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/slices/OrderSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/slices/OrderSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/slices/UserSlice.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/slices/UserSlice.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/store/store.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/store/store.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UIButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UIButton.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UICounter.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UICounter.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UIInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UIInput.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UIInteraction.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UIInteraction.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UIReInput.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UIReInput.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UISuccess.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UISuccess.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/UIKit/UITextArea.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/UIKit/UITextArea.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/_variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/_variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/About.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/About.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Banner.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Banner.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/BasketWidget.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/BasketWidget.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/BrandBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/BrandBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/CatalogButton.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/CatalogButton.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Compilations.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Compilations.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Contacts.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Contacts.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/FilterBar.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/FilterBar.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Footer.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Footer.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Header.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Header.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Item.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Item.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/ItemList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/ItemList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Layout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Layout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/MinLayout.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/MinLayout.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/ModalNav.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/ModalNav.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Popular.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Popular.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/components/Shop.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/components/Shop.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Admin/Admin.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Admin/Admin.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminAnalytics.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminAnalytics.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminItemList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminItemList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminOrderList.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminOrderList.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminSortControl.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Admin/AdminSortControl.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Auth.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Auth.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Basket.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Basket.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/Compilation.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/Compilation.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ItemPage.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ItemPage.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminAnalytics.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminAnalytics.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminCompilations.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminCompilations.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminCreateItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminCreateItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminEditItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminEditItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminGoods.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminGoods.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminOrders.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminOrders.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminOrdersDay.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminOrdersDay.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminOrdersDayItem.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminOrdersDayItem.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminPosting.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminPosting.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminPostingSizeCreator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminPostingSizeCreator.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminRequests.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminRequests.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminRequestsUser.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/Components/ReAdminRequestsUser.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/ReAdmin.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/ReAdmin/ReAdmin.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/creators/AdminItemCreator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/creators/AdminItemCreator.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/styles/pages/creators/AdminItemImagesCreator.module.scss" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/styles/pages/creators/AdminItemImagesCreator.module.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/basketLogics.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/basketLogics.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/consts.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/consts.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/fileToUri.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/fileToUri.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/groupBranches.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/groupBranches.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useDebounce.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useDebounce.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useEventListener.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useEventListener.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useIsFirstRender.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useIsFirstRender.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useIsomorphicLayoutEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useIsomorphicLayoutEffect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useLockedBody.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useLockedBody.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useUpdateEffect.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useUpdateEffect.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/hooks/useWindowSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/hooks/useWindowSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/http.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/http.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/intoArray.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/intoArray.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/models.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/models.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/sortById.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/sortById.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/sumQuantityFromSize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/sumQuantityFromSize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/src/utils/uriToFile.ts" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/utils/uriToFile.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/.env" beforeDir="false" afterPath="$PROJECT_DIR$/server/.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/BranchController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/BranchController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/BrandController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/BrandController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/BudgetController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/BudgetController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/CDEKController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/CDEKController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/CategoryController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/CategoryController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/CompilationController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/CompilationController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/DayController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/DayController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/DayItemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/DayItemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/ExpensesController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/ExpensesController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/ItemController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/ItemController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/OrderController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/OrderController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/SizeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/SizeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/TypeController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/TypeController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/UserController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/UserController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/controllers/VariantController.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/controllers/VariantController.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/database/database.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/database.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/database/models.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/database/models.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/error/ApiError.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/error/ApiError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/ApiError.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/ApiError.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/ErrorHandlingMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/ErrorHandlingMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/authMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/authMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/middleware/checkRoleMiddleware.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/middleware/checkRoleMiddleware.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/server/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/BranchRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/BranchRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/BrandRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/BrandRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/BudgetRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/BudgetRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/CDEKRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/CDEKRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/CategoryRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/CategoryRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/CompilationRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/CompilationRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/DayItemRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/DayItemRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/DayRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/DayRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/ExpensesRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/ExpensesRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/ItemRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/ItemRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/OrderRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/OrderRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/SizeRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/SizeRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/TypeRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/TypeRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/UserRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/UserRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/VariantRouter.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/VariantRouter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/routes/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/server/routes/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,25 +217,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;javascript.nodejs.core.library.configured.version&quot;: &quot;19.4.0&quot;,
-    &quot;javascript.nodejs.core.library.typings.version&quot;: &quot;20.2.1&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/angel/Desktop/armtaktika-redesigned/client/src/assets&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;watcher.settings&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;/home/angel/Desktop/armtaktika-redesigned/client/node_modules/typescript/lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "v1.0.1",
+    "javascript.nodejs.core.library.configured.version": "18.13.0",
+    "javascript.nodejs.core.library.typings.version": "18.13.0",
+    "last_opened_file_path": "/home/kai/Desktop/armtaktika",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "watcher.settings",
+    "ts.external.directory.path": "/home/kai/Desktop/armtaktika/client/node_modules/typescript/lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/client/src/assets" />
@@ -114,6 +309,12 @@
       <workItem from="1684756453077" duration="1960000" />
       <workItem from="1684805489457" duration="1000" />
       <workItem from="1684828570894" duration="13310000" />
+      <workItem from="1685011820875" duration="2000" />
+      <workItem from="1685016210051" duration="1762000" />
+      <workItem from="1685346919444" duration="2944000" />
+      <workItem from="1685618099482" duration="828000" />
+      <workItem from="1685933905994" duration="1151000" />
+      <workItem from="1685935664939" duration="13769000" />
     </task>
     <servers />
   </component>

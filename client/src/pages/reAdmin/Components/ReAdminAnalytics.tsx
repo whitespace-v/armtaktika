@@ -48,7 +48,7 @@ const ReAdminAnalytics = () => {
                     Инвестиции в товар: {branch.investment} <br/>
                     Касса: {branch.cash} <br/>
                     Выручка: {branch.income} <br/>
-                    Чистая прибыль: {branch.income - branch.investment}
+                    Чистая прибыль: {branch.profit}
                 </div>
                 <div className={classes['ReAdminAnalytics__expenses']}>
                     <div className={classes['ReAdminAnalytics__expenses-title']}>

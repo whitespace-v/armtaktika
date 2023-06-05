@@ -15,7 +15,7 @@ const ReAdminOrdersDayItem = ({item, size, dayId, branchId}: {item: IItem, size:
     const [quantity, setQuantity] = useState<string>('1')
 
     const addHandler = async () => {
-        await dispatch(addToDay({item, size, price, quantity, dayId, branchId}))
+        await dispatch(addToDay({item, size, price, purchase: item.purchase, quantity, dayId, branchId}))
         setOpened(false)
         await dispatch(fetchDays({branchId}))
         dispatch(fetchItems({curVariants: [], brand: defaultBrand, type: defaultBrand, category: defaultCategory, page: 1, limit: 999}))

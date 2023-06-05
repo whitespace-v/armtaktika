@@ -42,11 +42,13 @@ class SizeController {
     async update(req,res) {
         try{
             const {id} = req.params;
-            const {quantity, purchase} = req.body
+            const {name, quantity, invest, branchId} = req.body
             const d = await ItemSize.findOne({where: {id}})
-            await d.update({quantity})
-            await Budget.findOne({where: {id: 1}}).then(async d =>
-                d.update({investment: d.investment + purchase * quantity})
+            await d.update({name,quantity})
+            await Branch.findOne({where: {id: branchId}}).then(async b =>
+                b.update({
+                    investment: Number(b.investment) + Number(invest)
+                })
             )
             return res.json({message: "updated"});
         } catch (e) {
